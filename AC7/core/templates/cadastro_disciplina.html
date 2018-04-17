@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+        <div id="dado_cadastro_curso">
+        
+                <input  placeholder="Nome da Disciplina" class="input_cadastro_curso">
+                
+                        <input  type="number"   placeholder="Semestre"   class="horas">
+                        <input  type="number"   placeholder="Carga Horária Minima"  class="horas">
+                        <input  type="number"   placeholder="Carga Horária Máxima"  class="horas">
+            
+         
+                        <select>
+                            <option value="" >Modalidade</option>
+                            <option value="Presencial">Presencial</option>
+                            <option value="EAD">Á Distância</option>
+                            <option value="Semi">Semi Presencial</option>
+                        </select>
+                
+
+                        <select>
+                            <option value="">Regime Letivo</option>
+                            <option value="Anual">Anual</option>
+                            <option value="Semestral">Semestral</option>
+                            <option value="Trimestra">Trimestral</option>
+                        </select>
+
+                        <select>
+                                <option value="">Tipo</option>
+                                <option value="Graduacao">Graduação</option>
+                                <option value="Pós-Graduação">Pós-Graduação</option>
+                        </select>
+            
+        </div>
+
+                            <button id="Cadastro_Novo_Curso">Cadastrar</button>
+
+{% endblock %}

@@ -1,0 +1,52 @@
+/* TAGS */
+
+body{
+    background-color: black ; 
+}
+
+input {
+    margin-left: 50% ;
+    display: table ;
+    background-color: black  ;
+    color: gray ;
+    width: 60% ;
+    height: 6% ;
+    margin: 6% ;
+    font-size: 18px ;
+    margin-left: 20% ;
+}
+form { 
+    border: 1px solid #ed145d  ;
+    margin-left: 30% ;
+    height: 580px;   
+    width: 25%; 
+    margin-top: 5% ;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/* id's */
+
+#cadastro {
+    background-color: black ; 
+    color: white ; 
+    margin-left: 33% ;
+    height: 6%;
+    width: 35%;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+/*classes */
+
+
+
+
+
+
+/*- ----------------------------- */
+/* Efeitos CSS */
+
+#cadastro:hover {
+    background-color: #ed145d   ;
+}

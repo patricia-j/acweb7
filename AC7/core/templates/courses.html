@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+<ul>
+	{% for curso in cursos %}
+	<li><a href="{{ curso.link }}">{{curso.nome}}</a></li>
+	{% endfor %}
+	
+	
+</ul>
+
+
+
+{% endblock %}

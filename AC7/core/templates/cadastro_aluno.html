@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+
+    <form name="formulario" method="POST" action="" onsubmit="return validacao() ;">
+
+
+        <input type="text"  placeholder="Login"            id="login" >
+
+    
+        <input type="text"  placeholder="Nome" name="nome" id="nome" >
+
+    
+        <input type="email" placeholder="Email"            id="email_usuario" >
+
+     
+        <input type="tel"   placeholder="Celular" >
+
+
+
+        <input type="date" min="2001-12-31" name="dia" size="2" maxlength="2" value="dd" id="data_nas">
+
+        <input type="text" placeholder="CPF: XXXXXXXXXXX"  name="cpf" autofocus pattern="[0-9]{11}" id="cpf"  maxlength="11"   >
+           
+        
+
+
+
+        <input type="password" placeholder="Senha" id="senha" >
+        <input type="password" placeholder="Confirme sua Senha" id="confirma_senha"  >
+        
+
+
+        
+        <input  type="submit" name="submit" value="Enviar" id="cadastro">
+    
+     </form>
+
+
+{% endblock %}

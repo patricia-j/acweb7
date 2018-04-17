@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block conteudo %}
+
+
+							
+			<div id="dados">
+				<form action="" method="post">
+					<h3 style="margin-top: 0; color:white">Login do Usuário<h3>
+					
+					<input type="email" class="caixas" name="email" id="email" size="30" maxlength="100" required placeholder="Seu Email">
+				
+					<input type="password" class="caixas" name="senha" id="senha" size="20" maxlength="100" required placeholder="Sua Senha"> 
+			
+
+					
+					<label for="ldm"  id="lembrar">
+						<input id="ldm" name="lembrar" type="checkbox" value="lembrar">
+						Lembrar de mim
+					</label>
+					
+				<a href="index.html"><button type="button">Fazer Login </button></a>
+				</form>
+			</div>
+	
+{% endblock %}
